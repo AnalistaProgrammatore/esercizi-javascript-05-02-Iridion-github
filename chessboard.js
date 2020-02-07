@@ -12,7 +12,7 @@ let chessboard = ''
 let size = 8
 for (let x = 0; x < size; x++) {
   for (let y = 0; y < size; y++) {
-    if (y === 7) {
+    if (y === size - 1) {
       chessboard += '\n'
     } else if (x % 2 === 0) {
       if (y % 2 === 0) {
